@@ -1,0 +1,3 @@
+# R Error: object '...' not found
+This repository demonstrates a common error in R programming where the code attempts to access a non-existent column in a data frame.  The error message typically appears as "Error: object '...' not found", where '...' is the name of the missing column.  This often arises from typos, incorrect assumptions about data structure, or changes in the data that haven't been reflected in the code.
+The `bug.R` file contains the erroneous code, resulting in the error. The `bugSolution.R` file demonstrates how to handle this situation effectively using techniques to prevent the error or to gracefully handle its occurrence.
